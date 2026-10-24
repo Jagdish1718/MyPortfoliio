@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
@@ -13,9 +11,8 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function CaseStudyPage({ params }: { params: Promise<{ slug: string }> }) {
-  // Next.js 15 requires awaiting params
-  const { slug } = React.use(params);
+export default async function CaseStudyPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   const project = projects.find((p) => p.slug === slug);
 
   if (!project) {
