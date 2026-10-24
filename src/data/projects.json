@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "title": "Enterprise CRM System",
+    "slug": "enterprise-crm",
+    "category": "Full Stack .NET / Angular",
+    "description": "A comprehensive Customer Relationship Management system designed to streamline sales pipelines, manage lead tracking, and automate customer communication.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000",
+    "featured": true,
+    "color": "bg-blue-600",
+    "role": "Full Stack Developer",
+    "timeline": "Recent Project",
+    "tools": "ASP.NET Core, Angular, SQL Server, EF Core",
+    "outcomes": [
+      "Improved lead conversion tracking efficiency by 35%",
+      "Reduced database query latency by 50% through optimized indexing",
+      "Implemented secure OAuth2 authentication flow"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Custom ERP Solution",
+    "slug": "custom-erp",
+    "category": "ASP.NET Core / SQL Server",
+    "description": "Developing a modular Enterprise Resource Planning tool to automate inventory, finance, and HR modules for improved operational visibility.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38a70?auto=format&fit=crop&q=80&w=1000",
+    "featured": true,
+    "color": "bg-green-600",
+    "role": "Backend Developer",
+    "timeline": "Recent Project",
+    "tools": "C#, .NET 8, SQL Server, Web API",
+    "outcomes": [
+      "Automated 40% of manual reporting tasks",
+      "Developed scalable API endpoints for third-party integration",
+      "Reduced system crashes by 20% via improved error handling"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Business Process Automation Tool",
+    "slug": "process-automation",
+    "category": "Full Stack .NET",
+    "description": "A tool designed to digitize legacy paper-based workflows into a streamlined digital process with automated approvals.",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636ef5e5640?auto=format&fit=crop&q=80&w=1000",
+    "featured": true,
+    "color": "bg-purple-600",
+    "role": "Software Engineer",
+    "timeline": "Recent Project",
+    "tools": "ASP.NET Core, Angular, Azure SQL",
+    "outcomes": [
+      "Decreased approval cycle time from 5 days to 24 hours",
+      "Migrated legacy data to Azure SQL with zero data loss",
+      "Implemented real-time notifications using SignalR"
+    ]
+  }
+]
