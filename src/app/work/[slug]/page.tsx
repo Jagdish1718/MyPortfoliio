@@ -11,8 +11,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function CaseStudyPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
+export default async function CaseStudyPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
+  const slug = params.slug;
   const project = projects.find((p) => p.slug === slug);
 
   if (!project) {
