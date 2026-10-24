@@ -7,6 +7,12 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import projects from '@/data/projects.json';
 
+export async function generateStaticParams() {
+  return projects.map((project) => ({
+    slug: project.slug,
+  }));
+}
+
 export default function CaseStudyPage({ params }: { params: Promise<{ slug: string }> }) {
   // Next.js 15 requires awaiting params
   const { slug } = React.use(params);
